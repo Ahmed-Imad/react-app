@@ -1,8 +1,86 @@
-*,
-*::before,
-*::after{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color:rgb(19, 19, 17);
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Dancing Script', 'sans-serif';
+    background-color: #326724;
+    font-variant:small-caps;
+}
+
+nav{
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3a5f3b;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: blanchedalmond;
+    box-shadow: .9rem .9rem .5rem rgb(35, 39, 35);
     
 }
+
+span {
+    color: blanchedalmond;
+}
+
+.logo-text, .nav-text{
+    padding-top: 1rem;
+    font-size: 4rem;
+    position: relative;
+    letter-spacing: .2rem;
+    
+}
+
+.react-icon{
+    transform: translate(100%);
+}
+
+main{
+    min-height: 90%;
+    margin: 4rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+    letter-spacing: .2rem;
+    font-size: 4rem;
+    font-variant:small-caps;
+   
+    
+
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-list {
+    position:absolute;
+    transform: translate(50%,50%);
+    font-size: 3rem;
+    margin-top: -9rem;
+    margin-left: 9rem;
+    padding-block: 1rem;
+    
+}
+.main-list > li::marker{
+    font-size: 3rem;
+    color: blanchedalmond;
+}
+
+
+

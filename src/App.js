@@ -1,6 +1,15 @@
+// import Footer from "./components/Footer"
+import Main from "./components/Main"
+import Navbar from "./components/Navbar"
+
+
 function App() {
     return (
-        <h1>Hello from React!!</h1>
+        <>
+            <Navbar />
+            <Main />
+            {/* <Footer/> */}
+        </>
     )
 }
 
